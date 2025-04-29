@@ -13,7 +13,7 @@ Para esto yo tendria muy encuenta que las base de datos  esten bien indexadas y 
 Escribe una función en el lenguaje que prefieras que reciba una lista de números
 enteros y retorne el primer número que no se repite.
 ```
-def no_repeat(param : list) :#{
+def no_repeat(param : list) :
     if not param : return "invalid list"
     for i in param :
         if param.count(i) == 1 : return i;
