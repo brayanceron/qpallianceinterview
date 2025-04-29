@@ -4,6 +4,7 @@
 
 -------------------------------------------
 endpoint : /product
+
 method: GET
 body : Not
 headers :
@@ -11,6 +12,7 @@ headers :
 
 -------------------------------------------
 endpoint : /product/id
+
 method : GET
 params : product id
 headers :
@@ -19,9 +21,8 @@ headers :
 -------------------------------------------
 
 endpoint : /product
+
 method : POST
-headers :
-    - Content-Type : application/json
 body : ```
 ```
 {
@@ -30,13 +31,14 @@ body : ```
 	"min_stock" : 10
 }
 ```
-   
----
-endpoint : /product/id
-method : PUT
-params : product id
 headers :
     - Content-Type : application/json
+-------------------------------------------
+endpoint : /product/id
+
+method : PUT
+params : product id
+
 body : 
 ```
 {
@@ -45,14 +47,16 @@ body :
 	"min_stock" : 10
 }
 ```
-   
----
+headers :
+    - Content-Type : application/json
+-------------------------------------------
 endpoint : /product/id
+
 method : DELETE
 params : product id
 headers :
     - Content-Type : application/json
 
----
+-------------------------------------------
 
 
