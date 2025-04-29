@@ -1,4 +1,4 @@
-# 2
+# 1
 ¿Cómo diseñarías un sistema tipo MRP modular y escalable que permita añadir funcionalidades como predicción de demanda o reportes BI en el futuro? ¿Qué patrón(s) o arquitectura usarías y por qué?
 
 Yo utilizaria una arquitectura en capas como Clean Architecture o arquitectura hexagonal que me permitiera separar la lógica de negocio, la base de datos, y la interfaz (sea  una API o GUI) para de esta forma tener el código ordenado y que cada parte tenga una responsabilidad unica. Ya si el sistema comienza a crecer demasiado, para hacerlo mas escalable concideraria utilizar un patron de microservicios
@@ -21,4 +21,4 @@ def no_repeat(param : list) :#{
 result = no_repeat([4, 5, 1, 2, 0, 4, 1, 0])
 print(result)
 ```
-pd: se puede hacr con collections tambien
+pd: se puede hacer con collections tambien
